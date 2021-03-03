@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>load</title>
+    <link rel="stylesheet" type="text/css" href="loading-bar.css" />
+    <script type="text/javascript" src="loading-bar.js"></script>
+</head>
+
+<body>
+    <div class="oilLogo" data-type="fill"
+    data-fill-dir="btt" data-img="logo.svg"></div>
+
+    <script>
+        var bar = new ldBar(".oilLogo", {
+            "fill": '#f00',
+            "stroke-width": 10,
+            "value": 100
+        });
+    </script>
+</body>
+
+</html>
